@@ -8,7 +8,6 @@ export default defineConfig({
     org: "myorganization-tv",
     project: "javascript-react"
   })],
-  base: "/apple-website",
 
   server: {
     watch: {

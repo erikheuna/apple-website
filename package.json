@@ -1,6 +1,5 @@
 {
   "name": "apple_website",
-  "homepage": "https://erikheuna.github.io/apple-website/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
@@ -19,7 +16,6 @@
     "@sentry/react": "^9.15.0",
     "@sentry/vite-plugin": "^3.4.0",
     "@types/three": "^0.175.0",
-    "gh-pages": "^6.3.0",
     "gsap": "^3.12.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
